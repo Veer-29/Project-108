@@ -1,0 +1,33 @@
+body{
+    background-color: #E2E8DD;
+    font-family: 'Akaya Telivigala',cursive;
+   }
+#heading{
+    animation: changeColor 5s linear infinite; 
+}
+#animal_image
+{
+    border: 5px dashed rgb(236, 27, 166);
+    width: 350px;
+    height: 300px; 
+    animation: changeColor 3s linear infinite; 
+  }
+.footer{
+    color: #6b1967;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #bc50e7;
+    line-height: 3;
+    text-shadow: 5px 5px 5px rgb(231, 19, 185);
+    animation: changeColor 5s linear infinite;
+}
+@keyframes changeColor{
+    0%
+    {filter: hue-rotate(0deg);}
+    100%
+    {filter: hue-rotate(360deg);}
+  }
+  
